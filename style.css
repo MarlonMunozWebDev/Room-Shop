@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+}
+
+.contenedor {
+  margin: 5rem 8rem;
+}
+
+.section-one {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.navegador {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 13rem;
+  font-weight: 700;
+}
+
+.navegador img {
+  transform: translateY(-0.8rem);
+  height: 3rem;
+}
+
+.navegador a {
+  color: #000;
+  text-decoration: none; 
+}
+
+.navegador a:hover {
+  color: orange;
+}
+
+.titulo {
+  line-height: 1rem;
+  margin: 11rem 1rem 0 1rem;
+}
+
+.titulo h1 {
+  font-size: 2.5rem;
+}
+
+.titulo h3 {
+  color: orange;
+  font-size: 5rem;
+}
+
+.titulo button {
+  transform: translateX(35rem);
+  font-family: 'Poppins',sans-serif;
+  background-color: orange;
+  color: #fff;
+  padding: 1rem 3rem;
+  border: none;
+}
+
+.principal-imagen {
+  width: 50%;
+  height: 92%;
+  object-fit: cover;
+}
+
+.section-two {
+  margin: auto;
+  padding: 0 5rem;
+  height: 100vh;
+}
+
+.section-two h2 {
+  font-size: 2rem;
+}
+
+.galeria {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.sala {
+  background-size: cover;
+  width: 15rem;
+  height: 23rem;
+  margin-left: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.sala p {
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  padding: 1rem;
+  margin: 0;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  text-align:center;
+}
+
+.sala1 {
+  background-image: url(img/sala1.jpg);
+}
+
+.sala2 {
+  background-image: url(img/sala2.jpg);
+}
+
+.sala3 {
+  background-image: url(img/sala3.jpg);
+}
+
+.sala4 {
+  background-image: url(img/sala4.jpg);
+}
+
+
+.section-three {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+}
+
+.featured-imagen {
+  background-image: url(img/featured.jpg);
+  background-size: cover;
+  width: 80%;
+  height: 100%;
+}
+
+.featured-informacion {
+  width: 20%;
+  margin-left: 6rem;
+}
+
+.featured-informacion h2 {
+  font-size: 2rem;
+}
+
+.featured-informacion p {
+  font-weight: 700;
+}
+
+.precio {
+  width: 8rem;
+  border-top: 2px solid black;
+  font-size: 1.5rem;
+}
+
+.featured-informacion button {
+  margin-top: 3rem;
+  transform: translateX(-9rem);
+  font-family: 'Poppins',sans-serif;
+  background-color: orange;
+  color: #fff;
+  padding: 1rem 3rem;
+  border: none;
+}
+
+@media screen and (max-width: 1300px)  {
+  .titulo h3 {
+    font-size: 4rem;
+  }
+
+  .titulo button {
+    transform: translateX(25rem);
+  }
+}
